@@ -1,10 +1,13 @@
 <script>
 import Header from "../components/Header.vue";
+import Contacts from "../components/Contacts.vue";
+
 export default {
-  components: {Header}
+  components: {Contacts, Header}
 }
 </script>
 
 <template>
-<Header/>
+  <Header/>
+  <Contacts/>
 </template>
