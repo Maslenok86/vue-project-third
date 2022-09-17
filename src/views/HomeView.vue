@@ -5,9 +5,10 @@ import Products from "../components/Products.vue";
 import Projects from "../components/Projects.vue";
 import Culture from "../components/Culture.vue";
 import Facts from "../components/Facts.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
-  components: {Facts, Culture, Projects, Products, Contacts, Header}
+  components: {Footer, Facts, Culture, Projects, Products, Contacts, Header}
 }
 </script>
 
@@ -18,4 +19,5 @@ export default {
   <Projects/>
   <Culture/>
   <Facts/>
+  <Footer/>
 </template>

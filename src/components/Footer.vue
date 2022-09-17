@@ -1,0 +1,45 @@
+<script>
+export default {
+  name: "Footer"
+}
+</script>
+
+<template>
+  <div class="flex flex-col items-center bg-black">
+    <div class="grid grid-cols-3 grid-rows-3 w-[1300px] m-[40px]">
+      <div class="flex text-4xl text-white font-semibold">буше</div>
+      <div class="flex text-xl text-white row-span-3 gap-[10px]">
+        <div class="flex flex-col gap-[10px]">
+          <div>продукция</div>
+          <div>доставка</div>
+          <div>торты на заказ</div>
+          <div>акции и новости</div>
+          <div>оптовые продажи</div>
+          <div>мобильное приложение</div>
+        </div>
+        <div class="flex flex-col gap-[10px]">
+          <div>о компании</div>
+          <div>экология</div>
+          <div>работа в буше</div>
+          <div>адреса и контакты</div>
+          <div>информация о составе продукции</div>
+          <div>правила подписок</div>
+        </div>
+      </div>
+      <div class="flex justify-end gap-[20px]">
+        <img class="h-[40px] border border-zinc-700 rounded-full"
+             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNDc3LjgyIDI2OS40NWgtMjAzLjY0Yy0xMy44MTIgMC0yNy4wNjYgNS40ODgzLTM2LjgzNiAxNS4yNThzLTE1LjI1OCAyMy4wMi0xNS4yNTggMzYuODM2djEwOC45M2MwIDEzLjgxNiA1LjQ4ODMgMjcuMDY2IDE1LjI1OCAzNi44MzZzMjMuMDIzIDE1LjI1OCAzNi44MzYgMTUuMjU4aDIwMy42NGMxMy44MTYgMCAyNy4wNjYtNS40ODgzIDM2LjgzNi0xNS4yNThzMTUuMjU4LTIzLjAyIDE1LjI1OC0zNi44MzZ2LTEwOC45M2MwLTEzLjgxNi01LjQ4ODMtMjcuMDY2LTE1LjI1OC0zNi44MzZzLTIzLjAyLTE1LjI1OC0zNi44MzYtMTUuMjU4em0tNDEuNTMxIDEwOC42NC05Mi4zNDggNDcuMzU5di0wLjAwMzkwNmMtMC43MzQzOCAwLjM3ODkxLTEuNjA5NCAwLjM1MTU2LTIuMzEyNS0wLjA3NDIxOC0wLjcwNzAzLTAuNDIxODgtMS4xNDA2LTEuMTgzNi0xLjE0NDUtMi4wMDc4di05NC43MTVjMC4wMDM5MDYtMC44MjQyMiAwLjQzNzUtMS41ODU5IDEuMTQ0NS0yLjAxMTcgMC43MDMxMi0wLjQyNTc4IDEuNTc4MS0wLjQ1MzEyIDIuMzEyNS0wLjA3NDIxOGw5Mi4zNDggNDcuMzU5YzAuNzg5MDYgMC40MDYyNSAxLjI4OTEgMS4yMTg4IDEuMjg5MSAyLjEwNTUgMCAwLjg5MDYyLTAuNSAxLjcwMzEtMS4yODkxIDIuMTA5NHoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==">
+        <img class="h-[40px] p-[10px] border border-zinc-400 rounded-full invert"
+             src="https://e7.pngegg.com/pngimages/701/285/png-clipart-vkontakte-computer-icons-logo-others-angle-hand-thumbnail.png">
+        <img class="h-[40px] p-[8px] border border-zinc-700 rounded-full"
+             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTgyLjQ1IDIwOS4zNi03NS40NzcgMzExLjA4Yy0zLjU1MDggMTQuNjUyLTE5Ljk4IDIyLjE5OS0zMy40NDUgMTUuMjQybC05NS40NTctNDkuMjgxLTQ1LjEzNyA3My44NDhjLTEyLjI4NSAyMC4xMjktNDMuMzYzIDExLjM5NS00My4zNjMtMTIuMTM3di04Mi4yODVjMC02LjM2MzMgMi42NjQxLTEyLjQzIDcuMjUtMTYuODcxbDE4Ni4wMy0xNzcuNTljLTAuMTQ4NDQtMi4yMTg4LTIuNTE1Ni00LjE0NDUtNC44ODI4LTIuNTE1NmwtMjIxLjk5IDE1NC41MS03NC41OS0zOC40NzdjLTE3LjQ2NS05LjAyNzMtMTYuNzIzLTM0LjMzNiAxLjMzMi00Mi4xOGwzNjcuNzctMTYwLjI4YzE3LjYwOS03LjY5NTMgMzYuNTUxIDguMTQwNiAzMS45NjUgMjYuOTM0eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K">
+        <img class="h-[40px] border border-zinc-700 rounded-full"
+             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8ZyBmaWxsPSIjZmZmIj4KICA8cGF0aCBkPSJtNTYzLjk1IDMyNy4xNmMtMTcuNzU4LTY4LjA3OC03Mi41MTYtMTIyLjg0LTE0MS4zMy0xMzkuODYtNjguODItMTcuMDItMTQzLjU1IDUuMTc5Ny0xOTAuOTEgNTguNDU3LTU4LjQ1NyA2NS4xMTctNjUuODU1IDE2Mi43OS0xOC41IDIzNi43OS0zLjY5OTIgMjYuNjQxLTYuNjYwMiA1My4yNzctMTAuMzU5IDc5LjkxOC0xLjQ4MDUgOS42MjExIDEwLjM1OSAxNi4yODEgMTguNSAxNC4wNTkgMjUuODk4LTcuMzk4NCA1Mi41MzktMTQuMDU5IDc4LjQzOC0yMS40NjEgNzAuMjk3IDI4Ljg1OSAxNTEuNyAxNS41MzkgMjA3LjkzLTM2LjI1OCA1Mi41MzktNDguMDk0IDc0LTEyMy41NyA1Ni4yMzgtMTkxLjY1em0tNTEuNzk3IDE0Mi44MWMtNDQuMzk4IDY1LjExNy0xMzEuNzEgODkuNTM1LTIwMy40OSA1Ni45NzdoLTAuNzM4MjhjLTIuOTYwOS0xLjQ4MDUtNi42NjAyLTIuMjE4OC0xMS4wOTgtMS40ODA1LTIwLjcxOSA1LjkxOC00MS40MzggMTEuMDk4LTYyLjE1NiAxNy4wMiAyLjIxODgtMTcuNzU4IDQuNDQxNC0zNC43NzcgNi42NjAyLTUyLjUzOSAwLjczODI4LTUuOTE4IDIuMjE4OC0xMi41NzgtMC43MzgyOC0xOC41LTIuMjE4OC0zLjY5OTItNS4xNzk3LTcuMzk4NC03LjM5ODQtMTEuODQtNS4xNzk3LTguODc4OS05LjYyMTEtMTguNS0xMy4zMi0yOC4xMTctMTEuODQtMzQuMDM5LTEyLjU3OC03MS43NzctMS40ODA1LTEwNS44MiAxOS4yMzgtNTkuOTM4IDczLjk5Ni0xMDUuMDcgMTM2LjE2LTExMi40OCA2NC4zNjctOC44NzUgMTI4Ljc1IDIyLjIwMyAxNjIuMDUgNzYuMjIzIDM0LjAzNSA1NS40OTYgMzEuODE2IDEyNi41NC00LjQ0MTQgMTgwLjU1eiIvPgogIDxwYXRoIGQ9Im00NzguODYgNDAwLjQyLTMzLjI5Ny0yNS44OThjLTEwLjM1OS04LjE0MDYtMjQuNDE4LTYuNjYwMi0zMy4yOTcgMi4yMTg4bC05LjYyMTEgOS42MjExYy03LjM5ODQtNC40NDE0LTE0LjA1OS05LjYyMTEtMjAuNzE5LTE1LjUzOS01LjkxOC01LjkxOC0xMS4wOTgtMTMuMzItMTUuNTM5LTIwLjcxOWw5LjYyMTEtOS42MjExYzguODc4OS04Ljg3ODkgOS42MjExLTIyLjkzOCAyLjIxODgtMzMuMjk3bC0yNS44OTgtMzQuMDM5Yy01LjE3OTctNy4zOTg0LTEzLjMyLTExLjg0LTIyLjE5OS0xMS44NC04Ljg3ODktMC43MzgyOC0xNy43NTggMi45NjA5LTIzLjY4IDguODc4OWwtMjguODU5IDI4Ljg1OWMtMTYuMjgxIDE2LjI4MS0xOS45OCA0MS40MzgtOS42MjExIDYyLjE1NiAxNC4wNTkgMjYuNjQxIDMxLjgyIDUwLjMxNiA1Mi41MzkgNzEuMDM5IDIwLjcxOSAyMC43MTkgNDUuMTM3IDM4LjQ3NyA3MS4wMzkgNTIuNTM5IDguMTQwNiA0LjQ0MTQgMTYuMjgxIDUuOTE4IDI0LjQxOCA1LjkxOCAxMy4zMiAwIDI3LjM3OS01LjE3OTcgMzctMTUuNTM5bDI4Ljg1OS0yOC44NTljNS45MTgtNS45MTggOS42MjExLTE0LjgwMSA4Ljg3ODktMjMuNjgtMC4wMDM5MDctOC44ODI4LTQuNDQxNC0xNy4wMi0xMS44NDQtMjIuMTk5em0tMTcuNzU4IDI1LjE1Ni0yOC44NTkgMjguODU5Yy03LjM5ODQgNy4zOTg0LTE4LjUgOC44Nzg5LTI3LjM3OSA0LjQ0MTQtMjMuNjgtMTIuNTc4LTQ1LjEzNy0yOC4xMTctNjQuMzc5LTQ3LjM1OS0xOS4yMzgtMTkuMjM4LTM0Ljc3Ny00MC42OTktNDcuMzU5LTY0LjM3OS00LjQ0MTQtOC44Nzg5LTIuOTYwOS0xOS45OCA0LjQ0MTQtMjcuMzc5bDI4Ljg1OS0yOC44NTloMC43MzgyOGMwLjczODI4IDAgMC43MzgyOCAwIDAuNzM4MjggMC43MzgyOGwyMy42OCAzMS4wNzgtOS42MTcyIDguODgyOGMtNy4zOTg0IDcuMzk4NC05LjYyMTEgMTkuMjM4LTQuNDQxNCAyOC44NTkgNS45MTggMTEuODQgMTQuMDU5IDIyLjE5OSAyMi45MzggMzEuMDc4IDguODc4OSA4Ljg3ODkgMTkuMjM4IDE3LjAyIDMxLjA3OCAyMi45MzggOS42MjExIDUuMTc5NyAyMC43MTkgMi45NjA5IDI4LjExNy00LjQ0MTRsMTAuMzU5LTEwLjM1OSAzMC4zNCAyMy42OHMwLjczODI4IDAgMC43MzgyOCAwLjczODI4YzAuMDA3ODEyIDAuNzQ2MDkgMC4wMDc4MTIgMS40ODQ0IDAuMDA3ODEyIDEuNDg0NHoiLz4KIDwvZz4KPC9zdmc+Cg==">
+      </div>
+    </div>
+  </div>
+  <div class="flex items-center justify-center h-[50px] bg-neutral-800 text-neutral-500"> тут я усталь</div>
+</template>
+
+<style scoped>
+</style>
