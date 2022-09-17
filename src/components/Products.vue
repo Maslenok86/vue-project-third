@@ -3,7 +3,7 @@ import {products} from "../products";
 </script>
 
 <template>
-  <div class="flex justify-center mt-[100px]">
+  <div class="flex justify-center my-[100px]">
     <div class="flex flex-col w-[1300px]">
       <div class="flex justify-between items-center w-full mb-[40px]">
         <div class="text-5xl">продукция</div>
